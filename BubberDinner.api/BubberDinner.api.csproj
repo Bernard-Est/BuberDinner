@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7d4d8e6f-1c30-483a-b44e-5dd3f76b76eb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BubberDinner.contracts\BubberDinner.contracts.csproj" />
+    <ProjectReference Include="..\BubberDinner.application\BubberDinner.application.csproj" />
+    <ProjectReference Include="..\BubberDinner.infrastructure\BubberDinner.infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>
